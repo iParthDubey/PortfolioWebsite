@@ -1,5 +1,4 @@
 "use client"
-// import { Main } from "next/document";
 import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
@@ -34,7 +33,7 @@ export default function Home() {
               Parth Dubey
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Developer and Designer.</h3>
-            <p className="text-md py-5 leading-8 text-gray-800"> I'm a Web Developer passionate about building amazing digital experiences !!!</p>
+            <p className="text-md py-5 leading-8 text-gray-800"> {`I'm a Web Developer passionate about building amazing digital experiences !!!`}</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillGithub/>
