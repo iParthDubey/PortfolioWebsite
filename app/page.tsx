@@ -1,5 +1,5 @@
 "use client"
-import { Main } from "next/document";
+// import { Main } from "next/document";
 import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
